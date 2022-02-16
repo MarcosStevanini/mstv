@@ -1,0 +1,34 @@
+.movielist {
+    margin-bottom: 30px;
+}
+.movielist h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.content-movielist {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.list-movielist {
+    width: 9999999px;
+}
+
+.item-movielist {
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.item-movielist img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease-in-out 0.2s;
+    position: relative;
+    border-radius: 5px;
+}
+
+.item-movielist img:hover {
+    transform: scale(1);
+}
